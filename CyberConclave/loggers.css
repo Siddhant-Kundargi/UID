@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body{
+    font-family: 'Combo', cursive;
+    color: aquamarine;
+    background-color: #020202;
+}
+
+form{
+    text-align: left;
+    margin-left: 15%;
+    font-size:  22px;
+}
+
+h1{
+    margin-left: 5rem;
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+}
+
+h2{
+    margin-left: 5rem;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+}
+
+input{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid rgb(59, 72, 80);
+    background-color: #020202;
+    color: darkorange;
+    padding-right: 200px;
+}
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+.full-effect{
+    background-color: #020202;
+    border-radius: 10px;
+    font-size: 22px;
+    border-color: hotpink;
+    color: hotpink;
+    margin-top: 50px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+button:hover{
+    border-color: blueviolet;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightcoral;
+    margin-top: 20px;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+a:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+a:hover{
+    border-color: blueviolet;
+}
+
+label{
+    padding-right:20px;
+    display:inline-block;
+    min-width:118px;
+}
+
+.moiDetails{
+
+    font-size: 15px;
+}

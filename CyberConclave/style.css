@@ -1,0 +1,9 @@
+body {
+
+    color: white;
+    font-size: 5px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}

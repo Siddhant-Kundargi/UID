@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Amrita CyberNation (2022)</h1>
+    <h2>Registration Form</h2>
+
+    <form method="post">
+        
+        <label for="name">Name</label> &nbsp;
+        <input type="text" name="name" placeholder="John Doe" required> <br> <br>
+
+        <label for="mailAdress">Mail Adress</label> &nbsp;
+        <input type="text" name="mailAdress" placeholder="jdoe@mail.com" required> <br> <br>
+
+        <label for="password">Password</label> &nbsp;
+        <input type="password" name="password" required> <br> <br>
+
+        <label for="phone">Phone Number</label> &nbsp;
+        <input type="text" name="phone" minlength="8" maxlength="10" placeholder="0123456789" pattern="[0-9]{8,10}" required> <br> <br>
+
+        <label for="sex">Sex</label> &nbsp;
+        <input type="radio" name="sex" value="M" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" value="F" id="female">
+        <label for="female">Female</label> <br> <br>
+
+        <label for="dob">Date of Birth</label> &nbsp;
+        <input type="date" name="dob"> <br> <br>
+
+        <label for="adress">Adress</label> &nbsp;
+        <textarea name="adress" cols="30" rows="3"></textarea> <br> <br>
+
+        <label for="city">City</label> &nbsp;
+        <input type="text" name="city"> <br> <br>
+
+        <label for="state">State</label> &nbsp;
+        <input type="text" name="state"> <br> <br>
+
+        <label for="pincode">Pincode</label> &nbsp;
+        <input type="number" name="pincode" pattern="^[0-9]{6}$"> <br> <br>
+
+        <label for="country">Select Country</label> &nbsp;
+        <select name="country" id="country">
+            <option selected="true" disabled="disabled">Choose Country</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+        </select> <br> <br> 
+        
+        
+        <input type="checkbox" name="residence" id="residence" value="true">
+        <label for="residence" id="res-label">Opt for In-house Residence</label> <br><br>
+
+        <input type="submit"> &nbsp;
+        <input type="reset" style="background-color: lightpink;">
+    </form>
+
+</body>
+</html>

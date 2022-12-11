@@ -1,0 +1,95 @@
+body{
+
+    background-color: #1a1a1a;
+    color: aliceblue;
+}
+
+header{
+
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+
+#list {
+
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+#What {
+
+    padding: 2% 10% 2% 10%;
+}
+
+#gain {
+
+    text-align: right;
+    padding: 0% 10% 5% 10%;
+}
+
+@keyframes EventListAnimation {
+    
+    0% {color: #1a1a1a}
+    50% {color: aqua;}
+    100% {color: peachpuff;}
+}
+
+h3 {
+    color: #1a1a1a;
+    animation-fill-mode: forwards;
+}
+
+h3#li1 {
+
+    animation-delay: 0.25s;
+    animation-name: EventListAnimation;
+    animation-duration: 1s;
+}
+
+h3#li2 {
+
+    animation-delay: 0.5s;
+    animation-name: EventListAnimation;
+    animation-duration: 1s;
+}
+
+h3#li3 {
+
+    animation-delay: 1s;
+    animation-name: EventListAnimation;
+    animation-duration: 1s;
+}
+
+h3#li4 {
+
+    animation-delay: 1.5s;
+    animation-name: EventListAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes blinkingHeart{
+
+    0%      {background-color: pink; color: #1a1a1a;}
+    50%     {background-color: tomato; color: #1a1a1a;}
+    100%    {background-color: red; color: #fff;}
+}
+
+.register {
+
+    font-size: 40px;
+    padding: 1% 1% 1% 1%;
+
+    position: Absolute;
+    top: 30%;
+    left: 60%;
+    text-decoration: none;
+    border-radius: 10%;
+    animation: blinkingHeart 1s infinite alternate both;
+}
+
+#map {
+
+    top: 47%;
+    left: 59%;
+}

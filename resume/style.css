@@ -1,0 +1,67 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+   
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+   
+body { margin: 0; font-size: 0.8em; line-height: 1.4; }
+   
+body, button, input, select, textarea { font-family: sans-serif; color: #222; background: #eee; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+   
+img {
+
+    position: relative;
+    right: -80%;
+    bottom: -50%;
+}
+
+
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;	
+}
+   
+table{
+    width: 100%;
+}
+
+thead{
+    font-weight: bold;
+}
+
+td{	
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.project > .title {
+    margin-bottom: 0px;
+}
+
+.project > .meta {
+    font-size: 0.8em;
+}
+
+.project > .meta > .date {
+    float: right;
+
+}
+
+@keyframes namechange{
+
+    from {color: #eee;}
+    to { color: black;}
+}
+
+h1 {
+    animation-name: namechange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}

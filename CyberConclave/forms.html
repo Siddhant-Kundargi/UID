@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="loggers.css">
+    <title>Registration form</title>
+
+ </head>
+ <body>
+    <div class="moiDetails">Siddhant Kundargi [CH.EN.U4CYS21078]</div>
+<h1>Registerion</h1>
+<h1>
+    <form method="post"><br>
+    
+    <label for="username">New Username:</label>
+    <input type="text" name="username" minlength="4" required><br>
+    
+    <label for="password">Create Password: </label>
+    <input type="password" name="password" id="password" required><br>
+    
+    <label for="phone"> Phone: </label>
+    <input type="text" name="phone" id="phone" pattern=[0-9]{10} required><br><br><br>
+    
+    Select Your Status<br><br>
+    <input type="radio" name="Stage" id="Hacker">
+    <label for = "Hacker">Hacker</label>
+    <br>
+    <input type="radio" name ="Stage" id="Engineer">
+    <label for="teacher">Securty Engineer</label>
+    <br>
+    <input type="radio" name ="Stage" id="Noob">
+    <label for="employee">Noob</label><br><br>
+
+    Interested Events<br><br>
+    <input type="checkbox" name="prog" id="con">
+    <label for = "CTF">CTF</label>
+    <br>
+    <input type="checkbox" name ="prog" id="hac">
+    <label for="con">Hacking Conference</label><br>
+
+
+    <br><label for="fle">Upload An ID proof</label>
+    <input type="file" name="upload" id="fle"><br><br>
+        
+    <label for="info">Enter extra information about you here</label><br>
+    <textarea rows="8" cols="45" name="info" id="info"></textarea><br><br>
+    Select your Country here:
+    <select name="Country" id="Country">
+    <option value="none" selected disabled hidden>Select a Country</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Germany">Germany</option>
+    <option value="Japan">Japan</option>
+    <option value="China">China</option>
+    <option value="Russia">Russia</option>
+    <select><br><br>
+
+    <input type="submit" class="full-effect"> &nbsp;<input type="reset" class="full-effect"></form>
+    <br>
+    <a href="index.html">Back to Home Page</a>
+</body>
+
+</html>
